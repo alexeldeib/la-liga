@@ -1,0 +1,123 @@
+name: Weekly recap
+
+on:
+  schedule:
+    # GitHub starts scheduled runs late (hours, lately) and can drop them; off the hour helps a little.
+    - cron: "17 13 * * 2" # Tuesday 9:17am Eastern (8:17am once daylight saving ends)
+    - cron: "17 19 * * 2" # retry: does nothing if the morning run already published the week
+  workflow_dispatch:
+    inputs:
+      week:
+        description: Week to recap (blank = latest scored week)
+        required: false
+      fresh:
+        description: Rewrite the jokes even if this week already has some
+        type: boolean
+        default: false
+      dry_run:
+        description: Test only; show the jokes in the run summary, don't commit or deploy
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: [template.html, recap.py, prompt.md, punchup.md, apple-touch-icon.png, "weeks/**"] # hand edits to a week redeploy the site
+
+env:
+  LEAGUE_ID: "1381427556288323584" # La Liga on Sleeper; next season's renewed league gets a new ID
+  SITE_URL: https://liga.alexeldeib.xyz/
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: recap
+  cancel-in-progress: false
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60 # a hung call shouldn't hold the queue (and your hand-edit deploys) for 6 hours
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main # main as it is when this job starts, so a queued run never deploys an older commit
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - run: pip install anthropic==1.9.0 # the version every run so far used; upgrade on purpose
+      # A push only restyles the existing weeks; the schedule and manual runs fetch a new week.
+      - run: python recap.py ${{ github.event_name == 'push' && 'render' || '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WEEK: ${{ inputs.week }}
+          FRESH: ${{ inputs.fresh }}
+          DRY_RUN: ${{ inputs.dry_run }}
+      - name: Show the jokes (dry run)
+        if: ${{ inputs.dry_run }}
+        run: |
+          python - <<'EOF' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json, os
+          d = json.load(open(os.environ["WEEK_FILE"]))
+          c, w = d["copy"], d["facts"]["week"]
+          print(f"## Week {w} dry run, written by `{c.get('by')}`\n\n# {c['headline']}\n\n{c['dek']}\n")
+          print(f"**{c['hero_value']}**: {c['hero_caption']}  \nMarker: {' / '.join(c['pen_notes'])}\n")
+          print("\n\n".join(c.get("story", [])) + "\n\n### Power rankings")
+          print("\n".join(f"- **{x['key']}**: {x['line']}" for x in c.get("power_lines", [])))
+          print("\n### Trophies")
+          print("\n".join(f"- **{x['key']}**: {x['line']}" for x in c["award_lines"]))
+          print("\n### Games\n" + "\n".join(f"- {x['line']}" for x in c["game_lines"]))
+          print("\n### Next week\n" + "\n".join(f"- {x['line']}" for x in c["preview_lines"]))
+          print(f"\n_{c['signoff']}_")
+          print("\n### Web research brief\n" + (c.get("news") or "(none)"))
+          EOF
+      - name: Commit the new week
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add weeks
+          if ! git diff --cached --quiet; then
+            git commit -m "Recap: $WEEK_FILE"
+            git pull --rebase origin main # a hand edit to another week landed mid-run: keep both
+            git push
+            python recap.py render # so the deploy below includes that hand edit too
+          fi
+      # Link previews: shoot each week's title card (docs/*/*/card.html, written by render) to og.jpg, the image a
+      # pasted link shows. Runs after the last render above. Best effort: without it a link gets a text-only preview.
+      - name: Link-preview images
+        if: ${{ !inputs.dry_run }}
+        continue-on-error: true
+        run: |
+          pip install pillow
+          for card in docs/*/*/card.html; do
+            dir=$(dirname "$card")
+            timeout 60 google-chrome --headless=new --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
+              --window-size=1200,630 --virtual-time-budget=6000 --screenshot="$dir/og.png" "file://$PWD/$card" || true
+            python -c 'import sys; from PIL import Image; im = Image.open(sys.argv[1]); assert im.size == (1200, 630), im.size; im.convert("RGB").save(sys.argv[2], quality=85, optimize=True, progressive=True)' \
+              "$dir/og.png" "$dir/og.jpg" || echo "::warning::No link-preview image for $dir"
+            rm -f "$dir/og.png"
+          done
+      - name: Drop the card pages # they only exist to be photographed
+        run: rm -f docs/*/*/card.html
+      - uses: actions/upload-pages-artifact@v5
+        if: ${{ !inputs.dry_run }}
+        with:
+          path: docs
+      - id: deploy
+        if: ${{ !inputs.dry_run }}
+        uses: actions/deploy-pages@v5
+      # Deploy first so the numbers ship, then fail loudly (GitHub emails you) if Claude didn't write the jokes.
+      - name: Check the jokes made it
+        if: ${{ github.event_name != 'push' && !inputs.dry_run }}
+        run: |
+          python - <<'EOF'
+          import json, os, sys
+          d = json.load(open(os.environ["WEEK_FILE"]))
+          if d["copy"].get("by") == "template":
+              sys.exit(f"Week {d['facts']['week']} shipped without jokes. Rerun it with fresh ticked.")
+          EOF
