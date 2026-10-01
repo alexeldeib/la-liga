@@ -1,0 +1,2399 @@
+{
+ "facts": {
+  "league": "La Liga 🏈",
+  "season": "2026",
+  "week": 2,
+  "playoff_teams": 6,
+  "teams": [
+   {
+    "team": "You'll Never CMC Me Again",
+    "manager": "Wasabi209",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/578c6b253dd7b4bab45382e1af102204",
+    "commish": true
+   },
+   {
+    "team": "The (P)Rice is Right",
+    "manager": "jmass",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/e36c64e702e2db846c91eb439a13df6a",
+    "commish": true
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "manager": "nseldeib",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/2f77a67b560e86470c64159b7e0b1d2a",
+    "commish": false
+   },
+   {
+    "team": "TurkeyTime1",
+    "manager": "TurkeyTime1",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/d22e52781a5d7a94bcbf2aa70e748382",
+    "commish": false
+   },
+   {
+    "team": "EaglesRx",
+    "manager": "EaglesRx",
+    "avatar": null,
+    "commish": false
+   },
+   {
+    "team": "Won’t Rock",
+    "manager": "ActuallyLogan",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/51385ba57cd089261f6de9ce483b8716",
+    "commish": false
+   },
+   {
+    "team": "sedwards1495",
+    "manager": "sedwards1495",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/4fb394f49d806fbad75dd79ecc68f525",
+    "commish": false
+   },
+   {
+    "team": "Livin' La Liga Loca",
+    "manager": "kellengil",
+    "avatar": null,
+    "commish": false
+   },
+   {
+    "team": "Herbert's Hermanos",
+    "manager": "alexeldeib",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/7572250c2fb084c434fed0e82229e183",
+    "commish": false
+   },
+   {
+    "team": "PopPop4126",
+    "manager": "PopPop4126",
+    "avatar": "https://sleepercdn.com/uploads/ff5a68c7a29c9adbfcee362503651009",
+    "commish": false
+   },
+   {
+    "team": "Never Gonna Gibbs You Up",
+    "manager": "alysson2114",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/7572250c2fb084c434fed0e82229e183",
+    "commish": false
+   },
+   {
+    "team": "Like a Good Nabers",
+    "manager": "brickhouseallison",
+    "avatar": "https://sleepercdn.com/avatars/thumbs/d22e52781a5d7a94bcbf2aa70e748382",
+    "commish": false
+   }
+  ],
+  "power": [
+   {
+    "rank": 1,
+    "team": "PopPop4126",
+    "prev": 4,
+    "record": "2-0",
+    "all_play": "19-3",
+    "pf": 329.06,
+    "this_week": 177.12
+   },
+   {
+    "rank": 2,
+    "team": "Herbert's Hermanos",
+    "prev": 2,
+    "record": "2-0",
+    "all_play": "18-4",
+    "pf": 299.94,
+    "this_week": 128.98
+   },
+   {
+    "rank": 3,
+    "team": "Never Gonna Gibbs You Up",
+    "prev": 1,
+    "record": "2-0",
+    "all_play": "18-4",
+    "pf": 290.56,
+    "this_week": 118.56
+   },
+   {
+    "rank": 4,
+    "team": "EaglesRx",
+    "prev": 5,
+    "record": "0-2",
+    "all_play": "16-6",
+    "pf": 277.16,
+    "this_week": 129.4
+   },
+   {
+    "rank": 5,
+    "team": "sedwards1495",
+    "prev": 7,
+    "record": "2-0",
+    "all_play": "15-7",
+    "pf": 291.98,
+    "this_week": 164.08
+   },
+   {
+    "rank": 6,
+    "team": "Won’t Rock",
+    "prev": 3,
+    "record": "2-0",
+    "all_play": "15-7",
+    "pf": 272.74,
+    "this_week": 104.18
+   },
+   {
+    "rank": 7,
+    "team": "The (P)Rice is Right",
+    "prev": 6,
+    "record": "1-1",
+    "all_play": "8-14",
+    "pf": 237.28,
+    "this_week": 90.82
+   },
+   {
+    "rank": 8,
+    "team": "👩‍🍳 Cook coop conk",
+    "prev": 9,
+    "record": "0-2",
+    "all_play": "8-14",
+    "pf": 203.28,
+    "this_week": 104.16
+   },
+   {
+    "rank": 9,
+    "team": "TurkeyTime1",
+    "prev": 8,
+    "record": "0-2",
+    "all_play": "5-17",
+    "pf": 209.6,
+    "this_week": 90.04
+   },
+   {
+    "rank": 10,
+    "team": "You'll Never CMC Me Again",
+    "prev": 11,
+    "record": "0-2",
+    "all_play": "4-18",
+    "pf": 186.34,
+    "this_week": 95.22
+   },
+   {
+    "rank": 11,
+    "team": "Like a Good Nabers",
+    "prev": 12,
+    "record": "1-1",
+    "all_play": "4-18",
+    "pf": 176.36,
+    "this_week": 102.12
+   },
+   {
+    "rank": 12,
+    "team": "Livin' La Liga Loca",
+    "prev": 10,
+    "record": "0-2",
+    "all_play": "2-20",
+    "pf": 176.76,
+    "this_week": 77.76
+   }
+  ],
+  "games": [
+   {
+    "win": {
+     "team": "Like a Good Nabers",
+     "pts": 102.12,
+     "opt": 115.32,
+     "eff": 88.6,
+     "proj": 116.1,
+     "bench_pts": 34.8,
+     "top": {
+      "player": "C. McCaffrey",
+      "pts": 22.6
+     },
+     "swap": {
+      "bench": "R. White",
+      "bench_pts": 14.3,
+      "start": "M. Nabers",
+      "start_pts": 1.1,
+      "gain": 13.2
+     }
+    },
+    "lose": {
+     "team": "TurkeyTime1",
+     "pts": 90.04,
+     "opt": 94.64,
+     "eff": 95.1,
+     "proj": 102.0,
+     "bench_pts": 33.2,
+     "top": {
+      "player": "LAR D/ST",
+      "pts": 16.0
+     },
+     "swap": {
+      "bench": "K. Shakir",
+      "bench_pts": 6.8,
+      "start": "K. Mumpfield",
+      "start_pts": 2.2,
+      "gain": 4.6
+     }
+    },
+    "margin": 12.08
+   },
+   {
+    "win": {
+     "team": "Won’t Rock",
+     "pts": 104.18,
+     "opt": 111.68,
+     "eff": 93.3,
+     "proj": 118.4,
+     "bench_pts": 40.88,
+     "top": {
+      "player": "D. Smith",
+      "pts": 27.7
+     },
+     "swap": {
+      "bench": "T. Shough",
+      "bench_pts": 22.38,
+      "start": "J. Burrow",
+      "start_pts": 16.18,
+      "gain": 6.2
+     }
+    },
+    "lose": {
+     "team": "Livin' La Liga Loca",
+     "pts": 77.76,
+     "opt": 92.48,
+     "eff": 84.1,
+     "proj": 117.1,
+     "bench_pts": 46.98,
+     "top": {
+      "player": "T. McMillan",
+      "pts": 15.1
+     },
+     "swap": {
+      "bench": "M. Willis",
+      "bench_pts": 12.48,
+      "start": "T. Lawrence",
+      "start_pts": 7.16,
+      "gain": 5.32
+     }
+    },
+    "margin": 26.42
+   },
+   {
+    "win": {
+     "team": "Never Gonna Gibbs You Up",
+     "pts": 118.56,
+     "opt": 137.26,
+     "eff": 86.4,
+     "proj": 121.2,
+     "bench_pts": 51.18,
+     "top": {
+      "player": "D. Prescott",
+      "pts": 29.76
+     },
+     "swap": {
+      "bench": "X. Worthy",
+      "bench_pts": 13.5,
+      "start": "D. Moore",
+      "start_pts": -0.1,
+      "gain": 13.6
+     }
+    },
+    "lose": {
+     "team": "The (P)Rice is Right",
+     "pts": 90.82,
+     "opt": 125.92,
+     "eff": 72.1,
+     "proj": 124.9,
+     "bench_pts": 80.1,
+     "top": {
+      "player": "T. McBride",
+      "pts": 18.1
+     },
+     "swap": {
+      "bench": "D. Schultz",
+      "bench_pts": 26.0,
+      "start": "T. McLaurin",
+      "start_pts": 7.0,
+      "gain": 19.0
+     }
+    },
+    "margin": 27.74
+   },
+   {
+    "win": {
+     "team": "sedwards1495",
+     "pts": 164.08,
+     "opt": 177.08,
+     "eff": 92.7,
+     "proj": 113.6,
+     "bench_pts": 40.1,
+     "top": {
+      "player": "D. Adams",
+      "pts": 39.5
+     },
+     "swap": {
+      "bench": "J. Downs",
+      "bench_pts": 14.2,
+      "start": "R. Odunze",
+      "start_pts": 7.3,
+      "gain": 6.9
+     }
+    },
+    "lose": {
+     "team": "EaglesRx",
+     "pts": 129.4,
+     "opt": 164.98,
+     "eff": 78.4,
+     "proj": 117.5,
+     "bench_pts": 65.78,
+     "top": {
+      "player": "C. Lamb",
+      "pts": 35.3
+     },
+     "swap": {
+      "bench": "J. Ferguson",
+      "bench_pts": 20.3,
+      "start": "D. Goedert",
+      "start_pts": 1.4,
+      "gain": 18.9
+     }
+    },
+    "margin": 34.68
+   },
+   {
+    "win": {
+     "team": "PopPop4126",
+     "pts": 177.12,
+     "opt": 187.22,
+     "eff": 94.6,
+     "proj": 129.0,
+     "bench_pts": 81.28,
+     "top": {
+      "player": "J. Allen",
+      "pts": 40.82
+     },
+     "swap": {
+      "bench": "S. Diggs",
+      "bench_pts": 21.7,
+      "start": "C. Watson",
+      "start_pts": 14.1,
+      "gain": 7.6
+     }
+    },
+    "lose": {
+     "team": "You'll Never CMC Me Again",
+     "pts": 95.22,
+     "opt": 110.22,
+     "eff": 86.4,
+     "proj": 120.0,
+     "bench_pts": 26.1,
+     "top": {
+      "player": "J. Taylor",
+      "pts": 29.2
+     },
+     "swap": {
+      "bench": "M. Andrews",
+      "bench_pts": 10.9,
+      "start": "C. Loveland",
+      "start_pts": 1.3,
+      "gain": 9.6
+     }
+    },
+    "margin": 81.9
+   },
+   {
+    "win": {
+     "team": "Herbert's Hermanos",
+     "pts": 128.98,
+     "opt": 150.48,
+     "eff": 85.7,
+     "proj": 118.4,
+     "bench_pts": 59.7,
+     "top": {
+      "player": "J. Smith-Njigba",
+      "pts": 42.5
+     },
+     "swap": {
+      "bench": "T. Tucker",
+      "bench_pts": 22.9,
+      "start": "J. Reed",
+      "start_pts": 1.4,
+      "gain": 21.5
+     }
+    },
+    "lose": {
+     "team": "👩‍🍳 Cook coop conk",
+     "pts": 104.16,
+     "opt": 135.16,
+     "eff": 77.1,
+     "proj": 112.5,
+     "bench_pts": 65.5,
+     "top": {
+      "player": "J. Cook",
+      "pts": 20.9
+     },
+     "swap": {
+      "bench": "R. Bateman",
+      "bench_pts": 21.8,
+      "start": "M. Wilson",
+      "start_pts": 3.8,
+      "gain": 18.0
+     }
+    },
+    "margin": 24.82
+   }
+  ],
+  "awards": [
+   {
+    "key": "blowout",
+    "emoji": "💣",
+    "label": "Biggest domination",
+    "team": "PopPop4126",
+    "stat": "by 81.90 over You'll Never CMC Me Again",
+    "vs": null
+   },
+   {
+    "key": "high",
+    "emoji": "🥇",
+    "label": "Top score",
+    "team": "PopPop4126",
+    "stat": "177.12 (+48.1 vs proj)",
+    "vs": null
+   },
+   {
+    "key": "low",
+    "emoji": "💩",
+    "label": "Biggest loser",
+    "team": "Livin' La Liga Loca",
+    "stat": "77.76 (-39.3 vs proj)",
+    "vs": null
+   },
+   {
+    "key": "close",
+    "emoji": "🤏",
+    "label": "Closest game",
+    "team": "Like a Good Nabers",
+    "stat": "by 12.08 over TurkeyTime1",
+    "vs": null
+   },
+   {
+    "key": "best_mgr",
+    "emoji": "🔥",
+    "label": "Best manager",
+    "team": "TurkeyTime1",
+    "stat": "95.1% of max (94.64)",
+    "vs": null
+   },
+   {
+    "key": "worst_mgr",
+    "emoji": "🤡",
+    "label": "Worst manager",
+    "team": "The (P)Rice is Right",
+    "stat": "72.1% of max (125.92)",
+    "vs": {
+     "a": "D. Schultz",
+     "a_pts": 26.0,
+     "a_tag": "bench",
+     "b": "T. McLaurin",
+     "b_pts": 7.0,
+     "b_tag": "started"
+    }
+   },
+   {
+    "key": "best_bench",
+    "emoji": "🪑",
+    "label": "Best bench",
+    "team": "PopPop4126",
+    "stat": "81.28 on the bench",
+    "vs": null
+   },
+   {
+    "key": "mvp",
+    "emoji": "💪",
+    "label": "Best player",
+    "team": "Herbert's Hermanos",
+    "stat": "J. Smith-Njigba 42.50",
+    "vs": null
+   },
+   {
+    "key": "bench_mvp",
+    "emoji": "🛋️",
+    "label": "Bench MVP",
+    "team": "PopPop4126",
+    "stat": "J. Goff 29.78",
+    "vs": {
+     "a": "J. Goff",
+     "a_pts": 29.78,
+     "a_tag": "bench",
+     "b": "J. Allen",
+     "b_pts": 40.82,
+     "b_tag": "started"
+    }
+   },
+   {
+    "key": "over",
+    "emoji": "📈",
+    "label": "Overachiever",
+    "team": "sedwards1495",
+    "stat": "D. Adams 39.50, +25.9 vs proj",
+    "vs": null
+   },
+   {
+    "key": "under",
+    "emoji": "👎",
+    "label": "Underachiever",
+    "team": "Livin' La Liga Loca",
+    "stat": "S. Barkley 3.00, -13.6 vs proj",
+    "vs": null
+   },
+   {
+    "key": "lucky",
+    "emoji": "🍀",
+    "label": "Lucky",
+    "team": "Like a Good Nabers",
+    "stat": "won with the 8th-best score",
+    "vs": null
+   },
+   {
+    "key": "unlucky",
+    "emoji": "😡",
+    "label": "Unlucky",
+    "team": "EaglesRx",
+    "stat": "lost with the 3rd-best score",
+    "vs": null
+   }
+  ],
+  "gems": [
+   "The (P)Rice is Right's bench (80.10) outscored these whole lineups: Livin' La Liga Loca",
+   "PopPop4126's bench (81.28) outscored these whole lineups: Livin' La Liga Loca",
+   "J. Smith-Njigba (42.50, Herbert's Hermanos) outscored Livin' La Liga Loca's 6 lowest starters combined (33.96)",
+   "J. Allen (40.82, PopPop4126) outscored Livin' La Liga Loca's 6 lowest starters combined (33.96)",
+   "D. Adams (39.50, sedwards1495) outscored Livin' La Liga Loca's 6 lowest starters combined (33.96)",
+   "👩‍🍳 Cook coop conk (104.16) and Won’t Rock (104.18) finished 0.02 apart in different games",
+   "👩‍🍳 Cook coop conk shares a name with James Cook, who scored 20.90 (started) for 👩‍🍳 Cook coop conk",
+   "Never Gonna Gibbs You Up shares a name with Jahmyr Gibbs, who scored 23.30 (started) for Never Gonna Gibbs You Up",
+   "Like a Good Nabers shares a name with Malik Nabers, who scored 1.10 (started) for Like a Good Nabers"
+  ],
+  "lineups": {
+   "You'll Never CMC Me Again": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Drake Maye",
+      "pts": 9.02,
+      "proj": 18.89,
+      "line": "208 pass yds, 1 INT, 17 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Jonathan Taylor",
+      "pts": 29.2,
+      "proj": 18.79,
+      "line": "92 rush yds, 2 rush TD, 4 rec, 40 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "David Montgomery",
+      "pts": 4.4,
+      "proj": 17.05,
+      "line": "10 rush yds, 2 rec, 14 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Drake London",
+      "pts": 8.9,
+      "proj": 11.75,
+      "line": "-2 rush yds, 4 rec, 51 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Jaylen Waddle",
+      "pts": 21.8,
+      "proj": 12.71,
+      "line": "8 rec, 138 rec yds"
+     },
+     {
+      "slot": "TE",
+      "player": "Colston Loveland",
+      "pts": 1.3,
+      "proj": 11.88,
+      "line": "1 rec, 3 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Jaylen Warren",
+      "pts": 9.7,
+      "proj": 11.59,
+      "line": "43 rush yds, 2 rec, 34 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Matt Gay",
+      "pts": 8.9,
+      "proj": 7.51,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "TB D/ST",
+      "pts": 2.0,
+      "proj": 9.78,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Chris Rodriguez",
+      "pos": "RB",
+      "pts": 1.3,
+      "line": "13 rush yds"
+     },
+     {
+      "player": "Marvin Harrison",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Matthew Golden",
+      "pos": "WR",
+      "pts": 9.8,
+      "line": "4 rec, 58 rec yds"
+     },
+     {
+      "player": "Mark Andrews",
+      "pos": "TE",
+      "pts": 10.9,
+      "line": "6 rec, 49 rec yds"
+     },
+     {
+      "player": "Kyler Murray",
+      "pos": "QB",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Jordan Addison",
+      "pos": "WR",
+      "pts": 4.1,
+      "line": "2 rec, 21 rec yds"
+     }
+    ]
+   },
+   "The (P)Rice is Right": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Caleb Williams",
+      "pts": 8.72,
+      "proj": 18.55,
+      "line": "138 pass yds, 1 INT, 42 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Bijan Robinson",
+      "pts": 11.1,
+      "proj": 22.46,
+      "line": "72 rush yds, 3 rec, 9 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Jadarian Price",
+      "pts": 5.0,
+      "proj": 11.83,
+      "line": "52 rush yds, 1 rec, 8 rec yds, 1 fumbles lost"
+     },
+     {
+      "slot": "WR",
+      "player": "Rashee Rice",
+      "pts": 12.3,
+      "proj": 13.93,
+      "line": "4 rec, 83 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Jameson Williams",
+      "pts": 5.3,
+      "proj": 12.62,
+      "line": "2 rec, 33 rec yds"
+     },
+     {
+      "slot": "TE",
+      "player": "Trey McBride",
+      "pts": 18.1,
+      "proj": 14.8,
+      "line": "8 rec, 41 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Terry McLaurin",
+      "pts": 7.0,
+      "proj": 13.95,
+      "line": "2 rec, 50 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Will Reichard",
+      "pts": 12.3,
+      "proj": 7.87,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "SEA D/ST",
+      "pts": 11.0,
+      "proj": 8.91,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Jalen Coker",
+      "pos": "WR",
+      "pts": 14.6,
+      "line": "8 rec, 66 rec yds"
+     },
+     {
+      "player": "Devaughn Vele",
+      "pos": "WR",
+      "pts": 11.4,
+      "line": "5 rec, 64 rec yds"
+     },
+     {
+      "player": "Chris Godwin",
+      "pos": "WR",
+      "pts": 8.8,
+      "line": "12 rush yds, 3 rec, 46 rec yds"
+     },
+     {
+      "player": "Dalton Schultz",
+      "pos": "TE",
+      "pts": 26.0,
+      "line": "12 rec, 140 rec yds"
+     },
+     {
+      "player": "Tony Pollard",
+      "pos": "RB",
+      "pts": 7.5,
+      "line": "64 rush yds, 1 rec, 1 rec yds"
+     },
+     {
+      "player": "Tank Bigsby",
+      "pos": "RB",
+      "pts": 11.8,
+      "line": "33 rush yds, 1 rush TD, 2 rec, 5 rec yds"
+     }
+    ]
+   },
+   "👩‍🍳 Cook coop conk": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Jalen Hurts",
+      "pts": 18.16,
+      "proj": 20.79,
+      "line": "264 pass yds, 2 pass TD, 2 INT, 16 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "James Cook",
+      "pts": 20.9,
+      "proj": 19.5,
+      "line": "135 rush yds, 1 rush TD, 1 rec, 4 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Omarion Hampton",
+      "pts": 17.5,
+      "proj": 13.98,
+      "line": "94 rush yds, 1 rush TD, 2 rec, 21 rec yds, 1 fumbles lost"
+     },
+     {
+      "slot": "WR",
+      "player": "Luther Burden",
+      "pts": 6.2,
+      "proj": 11.46,
+      "line": "3 rec, 32 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Emeka Egbuka",
+      "pts": 10.3,
+      "proj": 10.8,
+      "line": "-3 rush yds, 3 rec, 16 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "TE",
+      "player": "Pat Freiermuth",
+      "pts": 7.4,
+      "proj": 8.85,
+      "line": "2 rush yds, 4 rec, 32 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Michael Wilson",
+      "pts": 3.8,
+      "proj": 9.92,
+      "line": "2 rec, 18 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Tyler Loop",
+      "pts": 6.9,
+      "proj": 7.99,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "SF D/ST",
+      "pts": 13.0,
+      "proj": 9.17,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "MarShawn Lloyd",
+      "pos": "RB",
+      "pts": 8.6,
+      "line": "20 rush yds, 2 rec, 6 rec yds, 1 rec TD, 1 fumbles lost"
+     },
+     {
+      "player": "Ladd McConkey",
+      "pos": "WR",
+      "pts": 6.5,
+      "line": "3 rec, 35 rec yds"
+     },
+     {
+      "player": "Omar Cooper",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "KC Concepcion",
+      "pos": "WR",
+      "pts": 8.2,
+      "line": "-6 rush yds, 6 rec, 28 rec yds"
+     },
+     {
+      "player": "George Kittle",
+      "pos": "TE",
+      "pts": 18.0,
+      "line": "4 rec, 80 rec yds, 1 rec TD"
+     },
+     {
+      "player": "Rashod Bateman",
+      "pos": "WR",
+      "pts": 21.8,
+      "line": "7 rec, 88 rec yds, 1 rec TD"
+     },
+     {
+      "player": "Quentin Johnston",
+      "pos": "WR",
+      "pts": 2.4,
+      "line": "7 rush yds, 1 rec, 7 rec yds"
+     }
+    ]
+   },
+   "TurkeyTime1": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Jayden Daniels",
+      "pts": 14.74,
+      "proj": 20.24,
+      "line": "96 pass yds, 1 pass TD, 69 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Kyren Williams",
+      "pts": 15.7,
+      "proj": 16.51,
+      "line": "85 rush yds, 2 rec, 12 rec yds, 1 rec TD, 1 fumbles lost"
+     },
+     {
+      "slot": "RB",
+      "player": "Cam Skattebo",
+      "pts": 9.5,
+      "proj": 14.57,
+      "line": "36 rush yds, 4 rec, 19 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Konata Mumpfield",
+      "pts": 2.2,
+      "proj": 3.54,
+      "line": "1 rec, 12 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Caleb Douglas",
+      "pts": 3.9,
+      "proj": 8.86,
+      "line": "2 rec, 19 rec yds"
+     },
+     {
+      "slot": "TE",
+      "player": "T.J. Hockenson",
+      "pts": 5.9,
+      "proj": 9.07,
+      "line": "3 rec, 29 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Chuba Hubbard",
+      "pts": 14.4,
+      "proj": 12.41,
+      "line": "53 rush yds, 2 rec, 11 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "K",
+      "player": "Cam Little",
+      "pts": 7.7,
+      "proj": 8.13,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "LAR D/ST",
+      "pts": 16.0,
+      "proj": 8.69,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "A.J. Brown",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Jordan Love",
+      "pos": "QB",
+      "pts": 13.8,
+      "line": "145 pass yds, 2 pass TD"
+     },
+     {
+      "player": "J.K. Dobbins",
+      "pos": "RB",
+      "pts": 3.6,
+      "line": "36 rush yds"
+     },
+     {
+      "player": "Khalil Shakir",
+      "pos": "WR",
+      "pts": 6.8,
+      "line": "3 rec, 38 rec yds"
+     },
+     {
+      "player": "Chig Okonkwo",
+      "pos": "TE",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Puka Nacua",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Zay Flowers",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "HOU D/ST",
+      "pos": "DEF",
+      "pts": 9.0,
+      "line": ""
+     }
+    ]
+   },
+   "EaglesRx": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Lamar Jackson",
+      "pts": 15.8,
+      "proj": 20.36,
+      "line": "235 pass yds, 1 pass TD, 1 INT, 34 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Derrick Henry",
+      "pts": 17.7,
+      "proj": 15.2,
+      "line": "68 rush yds, 1 rush TD, 3 rec, 19 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Bucky Irving",
+      "pts": 13.0,
+      "proj": 13.82,
+      "line": "89 rush yds, 4 rec, 1 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "CeeDee Lamb",
+      "pts": 35.3,
+      "proj": 17.8,
+      "line": "8 rec, 153 rec yds, 2 rec TD"
+     },
+     {
+      "slot": "WR",
+      "player": "Parker Washington",
+      "pts": 16.8,
+      "proj": 13.04,
+      "line": "7 rec, 98 rec yds"
+     },
+     {
+      "slot": "TE",
+      "player": "Dallas Goedert",
+      "pts": 1.4,
+      "proj": 10.17,
+      "line": "1 rec, 4 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Kenny Gainwell",
+      "pts": 4.5,
+      "proj": 7.99,
+      "line": "10 rush yds, 3 rec, 5 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Brandon Aubrey",
+      "pts": 16.9,
+      "proj": 9.47,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "PHI D/ST",
+      "pts": 8.0,
+      "proj": 9.6,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Woody Marks",
+      "pos": "RB",
+      "pts": 8.5,
+      "line": "8 rush yds, 5 rec, 27 rec yds"
+     },
+     {
+      "player": "Ja'Kobi Lane",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "De'Zhaun Stribling",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Matthew Stafford",
+      "pos": "QB",
+      "pts": 27.98,
+      "line": "327 pass yds, 4 pass TD, 1 INT, -1 rush yds"
+     },
+     {
+      "player": "Jake Ferguson",
+      "pos": "TE",
+      "pts": 20.3,
+      "line": "4 rec, 43 rec yds, 2 rec TD"
+     },
+     {
+      "player": "Tyjae Spears",
+      "pos": "RB",
+      "pts": 9.0,
+      "line": "41 rush yds, 2 rec, 29 rec yds"
+     }
+    ]
+   },
+   "Won’t Rock": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Joe Burrow",
+      "pts": 16.18,
+      "proj": 17.81,
+      "line": "207 pass yds, 2 pass TD, -1 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Chase Brown",
+      "pts": 11.2,
+      "proj": 15.73,
+      "line": "80 rush yds, 3 rec, 2 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Breece Hall",
+      "pts": 14.2,
+      "proj": 14.43,
+      "line": "29 rush yds, 5 rec, 63 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Justin Jefferson",
+      "pts": 8.5,
+      "proj": 17.79,
+      "line": "3 rec, 55 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "DeVonta Smith",
+      "pts": 27.7,
+      "proj": 14.76,
+      "line": "10 rec, 117 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "TE",
+      "player": "Hunter Henry",
+      "pts": 7.0,
+      "proj": 10.23,
+      "line": "3 rec, 40 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Mike Evans",
+      "pts": 8.4,
+      "proj": 12.93,
+      "line": "3 rec, 54 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Eddy Pineiro",
+      "pts": 5.0,
+      "proj": 8.41,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "JAX D/ST",
+      "pts": 6.0,
+      "proj": 6.32,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "RJ Harvey",
+      "pos": "RB",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Tyler Shough",
+      "pos": "QB",
+      "pts": 22.38,
+      "line": "252 pass yds, 1 pass TD, 23 rush yds, 1 rush TD"
+     },
+     {
+      "player": "Alvin Kamara",
+      "pos": "RB",
+      "pts": 7.2,
+      "line": "15 rush yds, 5 rec, 7 rec yds"
+     },
+     {
+      "player": "Devin Singletary",
+      "pos": "RB",
+      "pts": 0.9,
+      "line": "9 rush yds"
+     },
+     {
+      "player": "Michael Pittman",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Isaiah Likely",
+      "pos": "TE",
+      "pts": 8.3,
+      "line": "5 rec, 33 rec yds"
+     },
+     {
+      "player": "Alec Pierce",
+      "pos": "WR",
+      "pts": 2.1,
+      "line": "1 rec, 11 rec yds"
+     }
+    ]
+   },
+   "sedwards1495": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Brock Purdy",
+      "pts": 28.48,
+      "proj": 19.99,
+      "line": "287 pass yds, 2 pass TD, 30 rush yds, 1 rush TD"
+     },
+     {
+      "slot": "RB",
+      "player": "Jeremiyah Love",
+      "pts": 7.5,
+      "proj": 12.53,
+      "line": "29 rush yds, 3 rec, 16 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Kenneth Walker",
+      "pts": 23.8,
+      "proj": 17.0,
+      "line": "117 rush yds, 6 rec, 61 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Ja'Marr Chase",
+      "pts": 26.5,
+      "proj": 17.24,
+      "line": "7 rec, 75 rec yds, 2 rec TD"
+     },
+     {
+      "slot": "WR",
+      "player": "Davante Adams",
+      "pts": 39.5,
+      "proj": 13.64,
+      "line": "8 rec, 195 rec yds, 2 rec TD"
+     },
+     {
+      "slot": "TE",
+      "player": "Harold Fannin",
+      "pts": 10.4,
+      "proj": 9.78,
+      "line": "5 rec, 54 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Rome Odunze",
+      "pts": 7.3,
+      "proj": 9.73,
+      "line": "3 rec, 43 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Chris Boswell",
+      "pts": 5.6,
+      "proj": 7.25,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "PIT D/ST",
+      "pts": 15.0,
+      "proj": 6.4,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Jaxson Dart",
+      "pos": "QB",
+      "pts": 0.8,
+      "line": "20 pass yds"
+     },
+     {
+      "player": "TreVeyon Henderson",
+      "pos": "RB",
+      "pts": 13.6,
+      "line": "76 rush yds, 1 rush TD"
+     },
+     {
+      "player": "Jacory Croskey-Merritt",
+      "pos": "RB",
+      "pts": 5.8,
+      "line": "43 rush yds, 1 rec, 5 rec yds"
+     },
+     {
+      "player": "Makai Lemon",
+      "pos": "WR",
+      "pts": 1.9,
+      "line": "-5 rush yds, 1 rec, 14 rec yds"
+     },
+     {
+      "player": "Jakobi Meyers",
+      "pos": "WR",
+      "pts": 3.8,
+      "line": "1 rec, 28 rec yds"
+     },
+     {
+      "player": "Josh Downs",
+      "pos": "WR",
+      "pts": 14.2,
+      "line": "7 rec, 72 rec yds"
+     }
+    ]
+   },
+   "Livin' La Liga Loca": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Trevor Lawrence",
+      "pts": 7.16,
+      "proj": 17.2,
+      "line": "189 pass yds, 1 INT, 6 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "De'Von Achane",
+      "pts": 12.3,
+      "proj": 16.93,
+      "line": "74 rush yds, 3 rec, 19 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Saquon Barkley",
+      "pts": 3.0,
+      "proj": 16.64,
+      "line": "9 rush yds, 1 rec, 11 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Tee Higgins",
+      "pts": 14.5,
+      "proj": 13.84,
+      "line": "5 rec, 95 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Tetairoa McMillan",
+      "pts": 15.1,
+      "proj": 14.6,
+      "line": "5 rec, 101 rec yds"
+     },
+     {
+      "slot": "TE",
+      "player": "Tucker Kraft",
+      "pts": 3.5,
+      "proj": 11.85,
+      "line": "2 rec, 15 rec yds"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Bhayshul Tuten",
+      "pts": 14.2,
+      "proj": 9.1,
+      "line": "65 rush yds, 1 rush TD, 2 rec, -3 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Cairo Santos",
+      "pts": 5.0,
+      "proj": 7.88,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "BAL D/ST",
+      "pts": 3.0,
+      "proj": 9.03,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Jonathon Brooks",
+      "pos": "RB",
+      "pts": 2.1,
+      "line": "16 rush yds, 1 rec, -5 rec yds"
+     },
+     {
+      "player": "Kyle Monangai",
+      "pos": "RB",
+      "pts": 7.8,
+      "line": "47 rush yds, 2 rec, 11 rec yds"
+     },
+     {
+      "player": "Carnell Tate",
+      "pos": "WR",
+      "pts": 5.7,
+      "line": "3 rec, 27 rec yds"
+     },
+     {
+      "player": "Josh Jacobs",
+      "pos": "RB",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Deebo Samuel",
+      "pos": "WR",
+      "pts": 6.5,
+      "line": "4 rush yds, 3 rec, 31 rec yds"
+     },
+     {
+      "player": "Malik Willis",
+      "pos": "QB",
+      "pts": 12.48,
+      "line": "197 pass yds, 1 pass TD, 6 rush yds"
+     },
+     {
+      "player": "Dontayvion Wicks",
+      "pos": "WR",
+      "pts": 12.4,
+      "line": "5 rec, 74 rec yds"
+     }
+    ]
+   },
+   "Herbert's Hermanos": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Justin Herbert",
+      "pts": 9.88,
+      "proj": 16.88,
+      "line": "192 pass yds, 1 pass TD, 2 INT, 2 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Travis Etienne",
+      "pts": 7.1,
+      "proj": 11.75,
+      "line": "25 rush yds, 2 rec, 6 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Ashton Jeanty",
+      "pts": 10.3,
+      "proj": 15.89,
+      "line": "48 rush yds, 4 rec, 15 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Jaxon Smith-Njigba",
+      "pts": 42.5,
+      "proj": 19.55,
+      "line": "9 rec, 155 rec yds, 3 rec TD"
+     },
+     {
+      "slot": "WR",
+      "player": "Chris Olave",
+      "pts": 22.6,
+      "proj": 15.62,
+      "line": "8 rec, 86 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "TE",
+      "player": "Tyler Warren",
+      "pts": 14.4,
+      "proj": 11.33,
+      "line": "3 rush yds, 6 rec, 21 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Jayden Reed",
+      "pts": 1.4,
+      "proj": 11.58,
+      "line": "1 rec, 4 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Evan McPherson",
+      "pts": 12.8,
+      "proj": 7.34,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "GB D/ST",
+      "pts": 8.0,
+      "proj": 8.46,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Tre Tucker",
+      "pos": "WR",
+      "pts": 22.9,
+      "line": "5 rec, 119 rec yds, 1 rec TD"
+     },
+     {
+      "player": "Jordyn Tyson",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Mike Washington",
+      "pos": "RB",
+      "pts": 0.7,
+      "line": "7 rush yds"
+     },
+     {
+      "player": "Denzel Boston",
+      "pos": "WR",
+      "pts": 20.5,
+      "line": "5 rec, 95 rec yds, 1 rec TD"
+     },
+     {
+      "player": "Rico Dowdle",
+      "pos": "RB",
+      "pts": 6.4,
+      "line": "22 rush yds, 2 rec, 22 rec yds"
+     },
+     {
+      "player": "Kyle Pitts",
+      "pos": "TE",
+      "pts": 2.5,
+      "line": "1 rec, 15 rec yds"
+     },
+     {
+      "player": "Tank Dell",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Kayshon Boutte",
+      "pos": "WR",
+      "pts": 6.7,
+      "line": "3 rec, 37 rec yds"
+     },
+     {
+      "player": "Zach Charbonnet",
+      "pos": "RB",
+      "pts": 0.0,
+      "line": ""
+     }
+    ]
+   },
+   "PopPop4126": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Josh Allen",
+      "pts": 40.82,
+      "proj": 22.02,
+      "line": "248 pass yds, 3 pass TD, 69 rush yds, 2 rush TD"
+     },
+     {
+      "slot": "RB",
+      "player": "Javonte Williams",
+      "pts": 8.0,
+      "proj": 17.4,
+      "line": "30 rush yds, 3 rec, 20 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Quinshon Judkins",
+      "pts": 9.8,
+      "proj": 12.44,
+      "line": "21 rush yds, 5 rec, 27 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "Amon-Ra St. Brown",
+      "pts": 35.2,
+      "proj": 17.44,
+      "line": "9 rec, 142 rec yds, 2 rec TD"
+     },
+     {
+      "slot": "WR",
+      "player": "Garrett Wilson",
+      "pts": 16.7,
+      "proj": 15.11,
+      "line": "5 rec, 57 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "TE",
+      "player": "Dalton Kincaid",
+      "pts": 22.5,
+      "proj": 12.16,
+      "line": "7 rec, 95 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Christian Watson",
+      "pts": 14.1,
+      "proj": 14.84,
+      "line": "4 rec, 41 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "K",
+      "player": "Cameron Dicker",
+      "pts": 2.0,
+      "proj": 9.0,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "NE D/ST",
+      "pts": 28.0,
+      "proj": 8.62,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Stefon Diggs",
+      "pos": "WR",
+      "pts": 21.7,
+      "line": "5 rec, 47 rec yds, 2 rec TD"
+     },
+     {
+      "player": "Jared Goff",
+      "pos": "QB",
+      "pts": 29.78,
+      "line": "327 pass yds, 4 pass TD, 7 rush yds"
+     },
+     {
+      "player": "Aaron Jones",
+      "pos": "RB",
+      "pts": 10.5,
+      "line": "105 rush yds"
+     },
+     {
+      "player": "Jerry Jeudy",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Juwan Johnson",
+      "pos": "TE",
+      "pts": 10.6,
+      "line": "4 rec, 66 rec yds"
+     },
+     {
+      "player": "Brian Robinson",
+      "pos": "RB",
+      "pts": 8.7,
+      "line": "51 rush yds, 2 rec, 16 rec yds"
+     }
+    ]
+   },
+   "Never Gonna Gibbs You Up": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Dak Prescott",
+      "pts": 29.76,
+      "proj": 19.45,
+      "line": "279 pass yds, 4 pass TD, 26 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Jahmyr Gibbs",
+      "pts": 23.3,
+      "proj": 26.13,
+      "line": "52 rush yds, 6 rec, 61 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "RB",
+      "player": "D'Andre Swift",
+      "pts": 12.9,
+      "proj": 12.62,
+      "line": "45 rush yds, 5 rec, 54 rec yds, 1 fumbles lost"
+     },
+     {
+      "slot": "WR",
+      "player": "Courtland Sutton",
+      "pts": 5.5,
+      "proj": 10.7,
+      "line": "3 rec, 25 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "DJ Moore",
+      "pts": -0.1,
+      "proj": 13.12,
+      "line": "-1 rush yds"
+     },
+     {
+      "slot": "TE",
+      "player": "Travis Kelce",
+      "pts": 25.1,
+      "proj": 10.62,
+      "line": "9 rec, 101 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Rhamondre Stevenson",
+      "pts": 3.6,
+      "proj": 12.28,
+      "line": "43 rush yds, 1 rec, 3 rec yds, 1 fumbles lost"
+     },
+     {
+      "slot": "K",
+      "player": "Harrison Butker",
+      "pts": 17.5,
+      "proj": 7.75,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "KC D/ST",
+      "pts": 1.0,
+      "proj": 8.53,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Brock Bowers",
+      "pos": "TE",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Malik Washington",
+      "pos": "WR",
+      "pts": 8.7,
+      "line": "4 rush yds, 4 rec, 43 rec yds"
+     },
+     {
+      "player": "Xavier Worthy",
+      "pos": "WR",
+      "pts": 13.5,
+      "line": "5 rec, 25 rec yds, 1 rec TD"
+     },
+     {
+      "player": "Patrick Mahomes",
+      "pos": "QB",
+      "pts": 28.98,
+      "line": "382 pass yds, 3 pass TD, 17 rush yds"
+     },
+     {
+      "player": "Nico Collins",
+      "pos": "WR",
+      "pts": 0.0,
+      "line": ""
+     },
+     {
+      "player": "Jordan Mason",
+      "pos": "RB",
+      "pts": 0.0,
+      "line": ""
+     }
+    ]
+   },
+   "Like a Good Nabers": {
+    "started": [
+     {
+      "slot": "QB",
+      "player": "Bo Nix",
+      "pts": 15.12,
+      "proj": 15.74,
+      "line": "288 pass yds, 1 pass TD, 1 INT, 6 rush yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Blake Corum",
+      "pts": 10.2,
+      "proj": 10.2,
+      "line": "79 rush yds, 1 rec, 13 rec yds"
+     },
+     {
+      "slot": "RB",
+      "player": "Christian McCaffrey",
+      "pts": 22.6,
+      "proj": 19.76,
+      "line": "23 rush yds, 2 rush TD, 4 rec, 43 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "George Pickens",
+      "pts": 10.0,
+      "proj": 15.69,
+      "line": "6 rec, 40 rec yds"
+     },
+     {
+      "slot": "WR",
+      "player": "DK Metcalf",
+      "pts": 6.7,
+      "proj": 13.88,
+      "line": "4 rec, 27 rec yds"
+     },
+     {
+      "slot": "TE",
+      "player": "Sam LaPorta",
+      "pts": 17.2,
+      "proj": 11.19,
+      "line": "6 rec, 52 rec yds, 1 rec TD"
+     },
+     {
+      "slot": "FLEX",
+      "player": "Malik Nabers",
+      "pts": 1.1,
+      "proj": 13.62,
+      "line": "1 rec, 1 rec yds"
+     },
+     {
+      "slot": "K",
+      "player": "Ka'imi Fairbairn",
+      "pts": 8.2,
+      "proj": 9.18,
+      "line": ""
+     },
+     {
+      "slot": "DEF",
+      "player": "DEN D/ST",
+      "pts": 11.0,
+      "proj": 6.82,
+      "line": ""
+     }
+    ],
+    "bench": [
+     {
+      "player": "Braelon Allen",
+      "pos": "RB",
+      "pts": 8.5,
+      "line": "7 rush yds, 1 rush TD, 1 rec, 8 rec yds"
+     },
+     {
+      "player": "Kenyon Sadiq",
+      "pos": "TE",
+      "pts": 3.7,
+      "line": "2 rec, 17 rec yds"
+     },
+     {
+      "player": "Kaelon Black",
+      "pos": "RB",
+      "pts": 2.5,
+      "line": "25 rush yds"
+     },
+     {
+      "player": "Wan'Dale Robinson",
+      "pos": "WR",
+      "pts": 1.9,
+      "line": "1 rec, 9 rec yds"
+     },
+     {
+      "player": "Tyler Allgeier",
+      "pos": "RB",
+      "pts": 3.9,
+      "line": "10 rush yds, 2 rec, 9 rec yds"
+     },
+     {
+      "player": "Rachaad White",
+      "pos": "RB",
+      "pts": 14.3,
+      "line": "43 rush yds, 6 rec, 40 rec yds"
+     },
+     {
+      "player": "Isiah Pacheco",
+      "pos": "RB",
+      "pts": 0.0,
+      "line": ""
+     }
+    ]
+   }
+  },
+  "pickups": [
+   {
+    "team": "Livin' La Liga Loca",
+    "player": "J. Coleman",
+    "bid": null,
+    "pts": 0,
+    "started": false
+   },
+   {
+    "team": "Like a Good Nabers",
+    "player": "B. Young",
+    "bid": null,
+    "pts": 0,
+    "started": false
+   },
+   {
+    "team": "Won’t Rock",
+    "player": "A. Mitchell",
+    "bid": null,
+    "pts": 0,
+    "started": false
+   },
+   {
+    "team": "Won’t Rock",
+    "player": "B. Thomas",
+    "bid": null,
+    "pts": 0,
+    "started": false
+   },
+   {
+    "team": "TurkeyTime1",
+    "player": "K. Mumpfield",
+    "bid": null,
+    "pts": 2.2,
+    "started": true
+   },
+   {
+    "team": "Won’t Rock",
+    "player": "A. Kamara",
+    "bid": null,
+    "pts": 7.2,
+    "started": false
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "player": "R. Bateman",
+    "bid": null,
+    "pts": 21.8,
+    "started": false
+   },
+   {
+    "team": "Livin' La Liga Loca",
+    "player": "C. Santos",
+    "bid": null,
+    "pts": 5.0,
+    "started": true
+   },
+   {
+    "team": "Won’t Rock",
+    "player": "T. Shough",
+    "bid": null,
+    "pts": 22.38,
+    "started": false
+   },
+   {
+    "team": "Won’t Rock",
+    "player": "D. Singletary",
+    "bid": null,
+    "pts": 0.9,
+    "started": false
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "player": "P. Freiermuth",
+    "bid": null,
+    "pts": 7.4,
+    "started": true
+   },
+   {
+    "team": "Herbert's Hermanos",
+    "player": "GB D/ST",
+    "bid": null,
+    "pts": 8.0,
+    "started": true
+   },
+   {
+    "team": "Like a Good Nabers",
+    "player": "B. Allen",
+    "bid": null,
+    "pts": 8.5,
+    "started": false
+   },
+   {
+    "team": "Like a Good Nabers",
+    "player": "T. Allgeier",
+    "bid": null,
+    "pts": 3.9,
+    "started": false
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "player": "M. Gesicki",
+    "bid": null,
+    "pts": 0,
+    "started": false
+   },
+   {
+    "team": "Like a Good Nabers",
+    "player": "D. Singletary",
+    "bid": null,
+    "pts": 0,
+    "started": false
+   },
+   {
+    "team": "Like a Good Nabers",
+    "player": "K. Black",
+    "bid": null,
+    "pts": 2.5,
+    "started": false
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "player": "SF D/ST",
+    "bid": null,
+    "pts": 13.0,
+    "started": true
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "player": "T. Loop",
+    "bid": null,
+    "pts": 6.9,
+    "started": true
+   },
+   {
+    "team": "You'll Never CMC Me Again",
+    "player": "M. Gay",
+    "bid": null,
+    "pts": 8.9,
+    "started": true
+   },
+   {
+    "team": "You'll Never CMC Me Again",
+    "player": "TB D/ST",
+    "bid": null,
+    "pts": 2.0,
+    "started": true
+   },
+   {
+    "team": "The (P)Rice is Right",
+    "player": "D. Vele",
+    "bid": null,
+    "pts": 11.4,
+    "started": false
+   },
+   {
+    "team": "The (P)Rice is Right",
+    "player": "D. Schultz",
+    "bid": null,
+    "pts": 26.0,
+    "started": false
+   }
+  ],
+  "standings": [
+   {
+    "team": "PopPop4126",
+    "w": 2,
+    "l": 0,
+    "t": 0,
+    "pf": 329.06,
+    "pa": 194.34,
+    "all_play": "19-3",
+    "bench_left": 33.9,
+    "pa_per_game": 97.2,
+    "luck": 0.27,
+    "weekly_scores": [
+     151.94,
+     177.12
+    ]
+   },
+   {
+    "team": "Herbert's Hermanos",
+    "w": 2,
+    "l": 0,
+    "t": 0,
+    "pf": 299.94,
+    "pa": 251.92,
+    "all_play": "18-4",
+    "bench_left": 30.4,
+    "pa_per_game": 126.0,
+    "luck": 0.36,
+    "weekly_scores": [
+     170.96,
+     128.98
+    ]
+   },
+   {
+    "team": "sedwards1495",
+    "w": 2,
+    "l": 0,
+    "t": 0,
+    "pf": 291.98,
+    "pa": 228.4,
+    "all_play": "15-7",
+    "bench_left": 29.0,
+    "pa_per_game": 114.2,
+    "luck": 0.64,
+    "weekly_scores": [
+     127.9,
+     164.08
+    ]
+   },
+   {
+    "team": "Never Gonna Gibbs You Up",
+    "w": 2,
+    "l": 0,
+    "t": 0,
+    "pf": 290.56,
+    "pa": 181.94,
+    "all_play": "18-4",
+    "bench_left": 26.0,
+    "pa_per_game": 91.0,
+    "luck": 0.36,
+    "weekly_scores": [
+     172.0,
+     118.56
+    ]
+   },
+   {
+    "team": "Won’t Rock",
+    "w": 2,
+    "l": 0,
+    "t": 0,
+    "pf": 272.74,
+    "pa": 197.32,
+    "all_play": "15-7",
+    "bench_left": 9.3,
+    "pa_per_game": 98.7,
+    "luck": 0.64,
+    "weekly_scores": [
+     168.56,
+     104.18
+    ]
+   },
+   {
+    "team": "The (P)Rice is Right",
+    "w": 1,
+    "l": 1,
+    "t": 0,
+    "pf": 237.28,
+    "pa": 192.8,
+    "all_play": "8-14",
+    "bench_left": 65.5,
+    "pa_per_game": 96.4,
+    "luck": 0.27,
+    "weekly_scores": [
+     146.46,
+     90.82
+    ]
+   },
+   {
+    "team": "Like a Good Nabers",
+    "w": 1,
+    "l": 1,
+    "t": 0,
+    "pf": 176.36,
+    "pa": 236.5,
+    "all_play": "4-18",
+    "bench_left": 20.3,
+    "pa_per_game": 118.2,
+    "luck": 0.64,
+    "weekly_scores": [
+     74.24,
+     102.12
+    ]
+   },
+   {
+    "team": "EaglesRx",
+    "w": 0,
+    "l": 2,
+    "t": 0,
+    "pf": 277.16,
+    "pa": 335.04,
+    "all_play": "16-6",
+    "bench_left": 37.8,
+    "pa_per_game": 167.5,
+    "luck": -1.45,
+    "weekly_scores": [
+     147.76,
+     129.4
+    ]
+   },
+   {
+    "team": "TurkeyTime1",
+    "w": 0,
+    "l": 2,
+    "t": 0,
+    "pf": 209.6,
+    "pa": 270.68,
+    "all_play": "5-17",
+    "bench_left": 25.5,
+    "pa_per_game": 135.3,
+    "luck": -0.45,
+    "weekly_scores": [
+     119.56,
+     90.04
+    ]
+   },
+   {
+    "team": "👩‍🍳 Cook coop conk",
+    "w": 0,
+    "l": 2,
+    "t": 0,
+    "pf": 203.28,
+    "pa": 280.92,
+    "all_play": "8-14",
+    "bench_left": 38.1,
+    "pa_per_game": 140.5,
+    "luck": -0.73,
+    "weekly_scores": [
+     99.12,
+     104.16
+    ]
+   },
+   {
+    "team": "You'll Never CMC Me Again",
+    "w": 0,
+    "l": 2,
+    "t": 0,
+    "pf": 186.34,
+    "pa": 349.12,
+    "all_play": "4-18",
+    "bench_left": 38.2,
+    "pa_per_game": 174.6,
+    "luck": -0.36,
+    "weekly_scores": [
+     91.12,
+     95.22
+    ]
+   },
+   {
+    "team": "Livin' La Liga Loca",
+    "w": 0,
+    "l": 2,
+    "t": 0,
+    "pf": 176.76,
+    "pa": 232.08,
+    "all_play": "2-20",
+    "bench_left": 40.7,
+    "pa_per_game": 116.0,
+    "luck": -0.18,
+    "weekly_scores": [
+     99.0,
+     77.76
+    ]
+   }
+  ],
+  "next": null
+ },
+ "copy": {
+  "headline": "POP GOES THE WASABI",
+  "dek": "@PopPop4126 rode Josh Allen's five-touchdown stadium opener to the week's top score and flattened @Wasabi209.",
+  "hero_value": "81.90",
+  "hero_caption": "The bench alone came 0.62 short.",
+  "pen_notes": [
+   "BENCH PRESSED",
+   "ALLEN, ALL IN",
+   "POP CHARTS",
+   "GOFF DUTY",
+   "WAS HE IN?",
+   "CROWDED PENTHOUSE"
+  ],
+  "story_title": "PopPop4126 Pops Off, EaglesRx Gets Sacked by Its Own Backup, and Herbert's Hermanos Win Family Night",
+  "story": [
+   "Josh Allen opened Buffalo's new stadium by accounting for five touchdowns, and @PopPop4126 threw the housewarming party on @Wasabi209's lawn. The scarier part was who never got invited inside: Jared Goff threw four touchdowns from the bench, which is either depth or a hostage situation. One Sunday turned fourth place into first.",
+   "Goff wasn't the only quarterback with 327 yards and four touchdowns stuck in a fantasy waiting room. Matthew Stafford matched him yard for yard and score for score from @EaglesRx's bench while Lamar Jackson (15.8) started, and Stafford spent Monday night feeding Davante Adams, who was busy beating @EaglesRx for @sedwards1495. That's not losing to an opponent. That's the backup forwarding the mail. Elsewhere, the eldeib bowl went to @alexeldeib, as Jaxon Smith-Njigba's three scores outran @nseldeib and kept the bragging rights in the family name. And @TurkeyTime1 pushed every right lineup button and lost anyway, proof that good decisions need good players to decide on.",
+   "Two weeks in, five teams are unbeaten and the penthouse already needs a waiting list. Eleven teams now take aim at @PopPop4126, and the scouting report is short: pray that bench stays on the bench."
+  ],
+  "power_lines": [
+   {
+    "key": "PopPop4126",
+    "line": "Josh Allen christened a new stadium. This roster christened first place."
+   },
+   {
+    "key": "Herbert's Hermanos",
+    "line": "Benched Tre Tucker (22.9) torched Herbert's Chargers. With hermanos like these..."
+   },
+   {
+    "key": "Never Gonna Gibbs You Up",
+    "line": "Started Dak (29.76) over Mahomes (28.98) and guessed right by 0.78. Sharp, if sweaty."
+   },
+   {
+    "key": "EaglesRx",
+    "line": "Two top-five scores, zero wins. Keep scoring like this and the wins have to show."
+   },
+   {
+    "key": "sedwards1495",
+    "line": "Brock Purdy (28.48) even ran one in himself. Purdy good case for a contender."
+   },
+   {
+    "key": "Won’t Rock",
+    "line": "Undefeated and sliding anyway. Justin Jefferson (8.5) needs to RSVP to DeVonta Smith's party."
+   },
+   {
+    "key": "The (P)Rice is Right",
+    "line": "Trey McBride (18.1) and Will Reichard (12.3) kept it respectable. Bijan owes a rebound."
+   },
+   {
+    "key": "👩‍🍳 Cook coop conk",
+    "line": "Omarion Hampton (17.5) scored and fumbled, the whole season so far in one afternoon."
+   },
+   {
+    "key": "TurkeyTime1",
+    "line": "Two losses in September. Nobody told TurkeyTime1 carving season is November."
+   },
+   {
+    "key": "You'll Never CMC Me Again",
+    "line": "Matt Gay hit a career-long 59-yarder. The schedule (349.12 against) kicked back harder."
+   },
+   {
+    "key": "Like a Good Nabers",
+    "line": "CMC needed 23 rushing yards for two scores. A 1-1 record built on very short trips."
+   },
+   {
+    "key": "Livin' La Liga Loca",
+    "line": "Tetairoa McMillan (15.1) and Tee Higgins (14.5) held up their end. Help is on backorder."
+   }
+  ],
+  "award_lines": [
+   {
+    "key": "blowout",
+    "line": "Cameron Dicker scored 2.0 and it still wasn't remotely close."
+   },
+   {
+    "key": "high",
+    "line": "Amon-Ra St. Brown (35.2) would have been the headliner almost anywhere else."
+   },
+   {
+    "key": "low",
+    "line": "Two other teams' benches outscored this lineup. The couch is setting the bar."
+   },
+   {
+    "key": "close",
+    "line": "The tightest game of the week, and Rachaad White (14.3) still napped through it."
+   },
+   {
+    "key": "best_mgr",
+    "line": "Pushed every right button. None of them were connected to anything."
+   },
+   {
+    "key": "worst_mgr",
+    "line": "Jalen Coker (14.6) sat again, too. \"Never gonna bench Coker\" aged one week."
+   },
+   {
+    "key": "best_bench",
+    "line": "Stefon Diggs (21.7) caught two touchdowns. Nice digs, shame about the view."
+   },
+   {
+    "key": "mvp",
+    "line": "Three touchdowns, one handed to the fans. Even the crowd got a cut."
+   },
+   {
+    "key": "bench_mvp",
+    "line": "Four touchdown passes, and the reward was a front-row seat to Allen."
+   },
+   {
+    "key": "over",
+    "line": "195 yards and two scores. Monday night became Davante's Inferno."
+   },
+   {
+    "key": "under",
+    "line": "Saquon gained nine rushing yards, roughly one good stride for him."
+   },
+   {
+    "key": "lucky",
+    "line": "Seven teams scored more. None of them were on the schedule."
+   },
+   {
+    "key": "unlucky",
+    "line": "CeeDee Lamb (35.3) did everything except pick the opponent."
+   }
+  ],
+  "game_lines": [
+   {
+    "key": "1",
+    "line": "Waiver pickup Konata Mumpfield earned a start and caught one pass for it."
+   },
+   {
+    "key": "2",
+    "line": "Fans debate whether Shough crossed the goal line. He never crossed into the lineup."
+   },
+   {
+    "key": "3",
+    "line": "Rice's late incompletion forced overtime, and Butker (17.5) cashed it for the opponent."
+   },
+   {
+    "key": "4",
+    "line": "The Rams posted \"Ate the W.\" @sedwards1495 got the leftovers."
+   },
+   {
+    "key": "5",
+    "line": "New England's defense (28.0) more than tripled its projection. Allen had backup."
+   },
+   {
+    "key": "6",
+    "line": "Hurts led a game-winning drive with 14 seconds left. Wrong game, @nseldeib."
+   }
+  ],
+  "preview_lines": [],
+  "signoff": "All around the mulberry bench.",
+  "by": "claude-opus-5-5 (draft + punch-up)",
+  "news": "Here are 8 on-field moments from Week 2 involving your league's players. Each one comes from the NFL, a team site or ESPN/Yahoo.\n\n- **Matt Gay (You'll Never CMC Me Again):** He made a 59-yard field goal, the longest of his career, in the Raiders' 26-14 upset of the Chargers. A kicker setting a career long gets a lot of attention, and the Raiders' highlight page made a big deal of it. https://www.raiders.com/video/highlights-kirk-cousins-best-throws-nfl-week-2-chargers-2026-season\n\n- **Ashton Jeanty, Tre Tucker and Justin Herbert (all Herbert's Hermanos):** Jeanty threw a pass on a trick play and found Dareke Young wide open. He also scored two touchdowns, and Tucker had 119 receiving yards. Meanwhile, Hezekiah Masses intercepted Herbert twice. That's an awkward split for one fantasy team: two of its players had big games against its own quarterback. https://www.raiders.com/video/highlights-kirk-cousins-best-throws-nfl-week-2-chargers-2026-season\n\n- **Jaxon Smith-Njigba (Herbert's Hermanos):** After scoring against Arizona, he handed the ball to fans in the stands and jumped back onto the field. The NFL put the photo in its Top 10 of the week, and Seattle won 31-7, then trolled the Cardinals online. https://www.nfl.com/photos/top-10-photos-from-week-2-of-the-2026-season\n\n- **Davante Adams (sedwards1495) and Matthew Stafford (EaglesRx):** On Monday night against the Giants, Adams had 195 yards and 2 touchdowns, and Stafford threw 4 touchdowns. The Rams then teased the Giants on social media with an \"Ate the W\" post, which topped ESPN's list of the week's best trolls. https://www.nfl.com/videos/top-plays-week-2-x1597\n\n- **Harrison Butker, Patrick Mahomes (Never Gonna Gibbs You Up), Kenneth Walker (sedwards1495) and Rashee Rice (The (P)Rice is Right):** The Chiefs thought they had beaten the Colts on a strange ending, but the game went to overtime. Butker won it 33-30 with a 40-yard kick. Walker had 117 rushing yards plus 61 receiving yards. Late in regulation, a third-down pass to Rice was broken up, which killed the Chiefs' best chance to win before overtime. https://www.espn.com/nfl/scoreboard/_/week/2/year/2026/seasontype/2\n\n- **Tyler Shough (Won't Rock), Chris Olave (Herbert's Hermanos) and Lamar Jackson (EaglesRx):** The Saints came back from 14-3 down to win 24-17 in Baltimore. Twice in a row Shough disappeared into a pile at the goal line, and fans are still arguing whether he crossed on fourth down. Jackson threw an interception with 13 seconds left to end it. Afterward, the Saints answered a trash-talking Ravens fan by posting video of Olave celebrating his touchdown. https://www.espn.com/nfl/story/_/id/49993163/nfl-week-2-2026-trolls\n\n- **Josh Allen, Dalton Kincaid (PopPop4126) and James Cook (👩‍🍳 Cook coop conk):** The Bills opened their new stadium by beating Detroit 41-31, which meant a loss for Jahmyr Gibbs's team. Allen accounted for 5 touchdowns, Cook ran for 135 yards and a touchdown, and Kincaid had 95 yards and a touchdown. https://sports.yahoo.com/articles/7-biggest-takeaways-week-2-110000951.html\n\n- **Jalen Hurts (👩‍🍳 Cook coop conk):** He threw 2 interceptions, including one into the end zone on the opening drive. That was his first interception on an end-zone throw since 2024. He then led a calm last drive and threw the winning touchdown to Darius Cooper with 14 seconds left. https://www.espn.com/nfl/story/_/id/49951393/week-2-sunday-games-takeaways-questions-2026\n\n**Caveats:**\n- I ran out of searches before I could check every detail against a second source.\n- On Allen, a Wikipedia entry says he had 4 touchdowns in a game. That may refer to a different week, so I went with Yahoo's count of 5.\n- As you asked, I left out the week's injuries, including Caleb Williams, Jayden Daniels and Jayden Reed. I also skipped stories from less established sites, like a viral video of Kenneth Walker on the bench and a story about Cowboys fans reacting to CeeDee Lamb."
+ }
+}
