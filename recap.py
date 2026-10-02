@@ -752,13 +752,10 @@ def main():
                 if fresh.get("by") != "template" or not copy:  # a failed rewrite never replaces jokes we already have
                     copy = fresh
             path.parent.mkdir(exist_ok=True)
-            save(path, {**({"locked": True} if saved and saved.get("locked") else {}), "facts": facts, "copy": copy})
-            if not saved:  # a new week just went up: freeze every week before it
-                for q in sorted((ROOT / "weeks").glob(f"{facts['season']}-*.json")):
-                    d = load(q)
-                    if d["facts"]["week"] < facts["week"] and not d.get("locked"):
-                        save(q, {"locked": True, **d})
-                        print(f"::notice::Locked week {d['facts']['week']} now that week {facts['week']} is up.")
+            # Freeze by default: a week with real jokes locks as soon as it's saved. Plain-label (template) weeks stay
+            # open so the afternoon retry, or a rerun, can still write their jokes.
+            locked = bool(saved and saved.get("locked")) or copy.get("by") != "template"
+            save(path, {**({"locked": True} if locked else {}), "facts": facts, "copy": copy})
         if os.environ.get("GITHUB_ENV"):  # tells the workflow's later steps which week this run wrote
             with open(os.environ["GITHUB_ENV"], "a") as env:
                 env.write(f"WEEK_FILE={path.relative_to(ROOT)}\n")

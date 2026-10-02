@@ -16,7 +16,7 @@ The run is scheduled for 9:17am Eastern, but GitHub often starts scheduled runs 
 
 ## Freezing weeks
 
-A week locks automatically once the next week goes up: its file gets `"locked": true` at the top. Runs never touch a locked week, not even with **fresh**, so the jokes and numbers you signed off on stay put. Hand edits on GitHub still work the same way.
+Every week locks as soon as Claude writes its jokes: the file gets `"locked": true` at the top. Runs never touch a locked week, not even with **fresh**, so what you signed off on stays put. Hand edits on GitHub still work the same way. A week that shipped with plain labels (Claude failed) stays unlocked, so the afternoon retry or a rerun can still write its jokes.
 
 To regenerate a locked week, delete its `"locked": true,` line, commit, then rerun it with **fresh**.
 
@@ -25,7 +25,7 @@ To regenerate a locked week, delete its `"locked": true,` line, commit, then rer
 Go to **Actions → Weekly recap → Run workflow**:
 
 - **week**: leave blank for the latest finished week, or enter a week number.
-- **fresh** ticked: Claude rewrites that week's jokes from scratch (about $1.50). This replaces your hand edits to that week.
+- **fresh** ticked: Claude rewrites that week's jokes from scratch (about $1.50). Only works on an unlocked week, and it replaces your hand edits to that week.
 - **fresh** unticked, on a week that's already up: refreshes only the numbers, for example after NFL stat corrections land mid-week. The jokes stay. If a correction changed a result or a trophy winner, tick **fresh** instead, because each joke was written for the old winner.
 - **dry run**: shows the jokes and the web-research brief in the run log and summary, without committing or deploying. It works on locked weeks too, since it saves nothing. Tick **fresh** too, or you'll just see the existing jokes. The repo is public, so anyone can read that summary.
 
