@@ -1,0 +1,9 @@
+# La Liga 🏈: settings for the weekly recap (https://github.com/alexeldeib/fantasy-recap)
+league_id = "1381427556288323584" # next season, Sleeper gives the renewed league a new ID
+site_url = "https://liga.alexeldeib.xyz/"
+
+# The first line of the writer's brief.
+intro = "You write the weekly recap for La Liga, a 12-team full-PPR fantasy football league of friends and family on Sleeper."
+
+# In-jokes, rivalries, nicknames and past champions. The writer works them in.
+lore = []
